@@ -7,8 +7,6 @@ import errno
 import sys
 from stable_diffusion import sd_main
 from stable_diffusion import add_sd_params
-import warnings
-warnings.filterwarnings("ignore")
 SUCCESS = 0
 ERROR = 1
 UNKNOWN_FAILURE = 2
