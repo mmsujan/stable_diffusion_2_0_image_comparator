@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## Run Test
- - Copy Stable Diffusion 2.0 models from [SD_2.0_models](https://intel-my.sharepoint.com/:f:/p/mohammad_sujan_miah/EjPhb48v7ZpOtLw8mv8Sep8B8rRgGckHBirpMXCsQiKi9w?e=Fjpnia) 
+ - Copy Stable Diffusion 2.0 models from [SD_2.0_models](https://intel-my.sharepoint.com/:f:/p/mohammad_sujan_miah/EuHvbZbJjfJBm3Ir3OHpOXABQjptY_GaK11kwdYfkN4gPA?e=j9pQ9Q) 
  - Unzip " models" directory and put it inside "stable_diffusion_2_0_image_comparator"
  - From conda prompt, cd path to "stable_diffusion_2_0_image_comparator" directory  
  

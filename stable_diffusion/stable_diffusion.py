@@ -319,12 +319,16 @@ def sd_main(args=None):
             "WARNING: the --static_dims option is deprecated, and static shape optimization is enabled by default. "
             "Use --dynamic_dims to disable static shape optimization."
         )
-
+    #Currently, MTL does not support image size more than 512
+    img_size = 768    
+    if args.platform == "MTL":
+        img_size = 512
+    
     model_to_image_size = {
         "CompVis/stable-diffusion-v1-4": 512,
         "runwayml/stable-diffusion-v1-5": 512,
         "sayakpaul/sd-model-finetuned-lora-t4": 512,
-        "stabilityai/stable-diffusion-2": 768,
+        "stabilityai/stable-diffusion-2": img_size,
         "stabilityai/stable-diffusion-2-base": 768,
         "stabilityai/stable-diffusion-2-1": 768,
         "stabilityai/stable-diffusion-2-1-base": 768,
