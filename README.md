@@ -16,8 +16,8 @@ pip install -r requirements.txt
 
 ## Run Test
  - Copy Stable Diffusion 2.0 models from [SD_2.0_models](https://intel-my.sharepoint.com/:f:/p/mohammad_sujan_miah/EuHvbZbJjfJBm3Ir3OHpOXABQjptY_GaK11kwdYfkN4gPA?e=j9pQ9Q) 
- - Unzip " models" directory and put it inside "stable_diffusion_2_0_image_comparator"
- - From conda prompt, cd path to "stable_diffusion_2_0_image_comparator" directory  
+ - Unzip " models" directory and put it inside "stable_diffusion_2_0_image_comparator/stable_diffusion"
+ - From conda prompt, cd path to "stable_diffusion_2_0_image_comparator/stable_diffusion" directory  
  
  Sample Run: 
  ```
@@ -44,4 +44,3 @@ optional arguments:
   --verbosity           Print error details
  
 ```
- - Note : E2E Performance information is reported as it/s (but sometimes as s/it  <- CI folks need to aware of it). Currently, SD_XL model only support DG2 platform.
